@@ -94,9 +94,4 @@ describe('Descriptor types', () => {
       }
     );
   });
-
-  it('Can use well known Google protos', () => {
-    // This will throw if the well known protos are not available.
-    proto_loader.loadSync(`${TEST_PROTO_DIR}/well_known.proto`);
-  });
 });
